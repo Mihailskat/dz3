@@ -1,0 +1,10 @@
+number = int(input())
+sum_1 = 0
+
+while True:
+  t = number % 10
+  sum_1 += t
+  number = number // 10
+  if number % 10 == 0:
+    break
+print(sum_1)
